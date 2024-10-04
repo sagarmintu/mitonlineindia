@@ -1,0 +1,224 @@
+.aboutBannerSec {
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  h3 {
+    color: rgba(9, 4, 1, 0.7);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29.88px;
+    letter-spacing: 0.072px;
+    margin-bottom: 50px;
+  }
+}
+
+.contentWrap {
+  max-width: 667px;
+  width: calc(100vw - 32px);
+  margin: auto;
+}
+.aboutSec {
+  p {
+    color: rgba(11, 11, 11, 0.85);
+    margin-bottom: 50px;
+  }
+}
+.visionMission {
+  .visionMissionGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    max-width: 840px;
+    margin: auto;
+    padding: 20px;
+    @media (max-width: 767px) {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 60px;
+    }
+    .vmBox {
+      border-radius: 10px;
+      border: 1px solid #e6e6e6;
+      background: #fff;
+      padding: 64px 26px 26px 26px;
+      position: relative;
+      img {
+        position: absolute;
+        top: -35px;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+      h3 {
+        color: #2a3244;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 10px;
+      }
+      p {
+        color: #505a6f;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.6px;
+      }
+    }
+  }
+}
+
+.leadershipGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+  @media (max-width: 767px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .leadershipBox {
+    border-radius: 8px;
+    border: 1px solid #e7e7e7;
+    overflow: hidden;
+    > div {
+      img {
+        height: 320px !important;
+        object-fit: cover;
+        object-position: top;
+      }
+      a img {
+        height: fit-content !important;
+      }
+    } 
+    .contentWrap {
+      background: #fff;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      max-width: unset;
+      width: unset;
+      img {
+        position: absolute;
+        left: 0;
+        top: -20px;
+        max-width: 100%;
+      }
+      h3 {
+        color: #090401;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27.6px;
+        letter-spacing: 0.2px;
+        margin-bottom: 10px;
+      }
+      p {
+        color: #5b5b5b;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+      }
+    }
+  }
+}
+
+.detailGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+  @media (max-width: 767px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  div {
+    border-radius: 8px;
+    border: 1px solid #e7e7e7;
+    background: #fff;
+    padding: 30px;
+    background-image: url("../images/contact-bg.png");
+    background-repeat: no-repeat;
+    background-position: right -10px;
+    position: relative;
+
+    h4 {
+      color: rgba(9, 4, 1, 0.8);
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
+    p {
+      color: rgba(11, 11, 11, 0.85);
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 28px;
+      margin: 0;
+      &:first-of-type {
+        width: 23px;
+        height: 23px;
+        position: absolute;
+        right: 33px;
+        top: 34px;
+        text-align: center;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    h5 {
+      color: #090401;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 28.8px;
+      letter-spacing: 0.36px;
+      padding-left: 30px;
+      position: relative;
+
+      img {
+        position: absolute;
+        left: 0;
+        top: 5px;
+      }
+      &:first-of-type {
+        margin-top: 42px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.formSec {
+  position: relative;
+  &:after {
+    content: "";
+    background: url("../images/bg-form.png");
+    position: absolute;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 250px;
+    width: 100%;
+  }
+
+  .formcard {
+    max-width: 710px;
+    margin: auto;
+    padding: 30px 40px;
+    border-radius: 8px;
+    border: 1px solid #e7e7e7;
+    background: #fff;
+    min-height: 390px;
+    z-index: 9;
+    position: relative;
+    @media (max-width: 767px) {
+      width: calc(100% - 32px);
+      margin: 0 auto;
+      padding: 20px 22px;
+    }
+    h3 {
+      color: #000;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+  }
+}

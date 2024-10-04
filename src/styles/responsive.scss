@@ -1,0 +1,56 @@
+@media (max-width: 991px) {
+  ul.nav {
+    display: none;
+  }
+
+  .navbar-toggler {
+    display: block !important;
+  }
+
+  .navbar-collapse.show {
+    display: flex;
+    padding-top: 16px !important;
+    height: calc(100vh - 70px);
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  nav.navbar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 20px;
+    flex-direction: row-reverse;
+  }
+
+  .courses-banner {
+    h1 {
+      text-align: center;
+    }
+
+    .banner-desc,
+    .banner-desc p {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .ranking-section {
+    .section-head {
+      margin-bottom: 55px;
+    }
+  }
+
+  .navbar-left {
+    .item.dropdown {
+      div {
+        margin: 6px 0;
+        padding: 3px 6px;
+      }
+      +ul{
+        padding: 0 8px 0 8px;
+      }
+    }
+    
+  }
+}

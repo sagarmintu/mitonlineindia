@@ -1,0 +1,19 @@
+export { default as LOGO } from "../images/navbar/logo.svg";
+export { default as HOME } from "../images/navbar/home.svg";
+export { default as Courses } from "../images/navbar/courses.svg";
+export { default as Institute } from "../images/navbar/institute.svg";
+export { default as Harbour } from "../images/navbar/harbour.svg";
+export { default as Placement } from "../images/navbar/placement.svg";
+export { default as Admission } from "../images/navbar/admission.svg";
+
+export { default as DarkLogo } from "../images/mit-light-logo.svg";
+export { default as Linkedin } from "../images/linkedin.svg";
+export { default as Facebook } from "../images/facebook.svg";
+export { default as Instagram } from "../images/instagram.svg";
+export { default as Search } from "../images/searchIcon.svg";
+export { default as MISSION } from "../images/mission.svg";
+export { default as VISION } from "../images/vision.svg";
+export { default as C_CLOSE } from "../images/close.svg";
+export { default as C_OPEN } from "../images/open.svg";
+export { default as RightArrow } from "../images/right-arrow.svg";
+export { default as LinkedInIcon } from "../images/linkedin-icon.svg";
